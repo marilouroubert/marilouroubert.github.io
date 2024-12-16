@@ -1,0 +1,136 @@
+
+@font-face {
+    font-family: BBBSprat;
+    src: url("webfonts/webfonts2/FT88-Serif.woff");
+   
+    
+  }
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Style de la page */
+body {
+    background-color:rgb(0, 0, 0);
+    font-family: BBBSprat;
+    src: url("webfonts/BBBSprat-CondensedLight.woff2");
+    cursor: url('img/img/curseur.png'), auto;
+}
+
+a {
+    cursor: url('img/img/curseur.png'), auto;
+}
+
+a img {
+    cursor: url('img/img/curseur.png'), auto;
+}
+
+a:hover {
+    cursor: url('img/img/curseurvert.png'), auto;
+}
+
+/* Header avec logo et liens */
+header {
+    
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 5em;
+    font-weight: bold;
+    color:lime;
+
+
+    
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+
+    
+    text-decoration:none;
+    color:lime;
+    font-weight: bold;
+}
+
+/* Grille pour les photos */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: .1rem; /* Pas de marge entre les images */
+    width: 100%;
+    max-width: 100%;
+    margin-top: 0.1rem;
+}
+
+.gallery img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.gallery img:hover{
+    filter:invert(100%);
+    color: rgb(0, 0, 0);
+    transition: all .7s ease;
+}
+
+@font-face {
+    font-family: FT88;
+    src: url("webfonts/webfonts2/FT88-Italic.woff");
+  }
+#apropos{
+    
+    margin-top: -50px;
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Aligner les éléments au sommet */
+    gap: 0px; /* Espacement entre les blocs */
+    padding: 20px;
+ }
+ 
+ /* Galerie d'images */
+ .galleryldle {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%; /* La galerie prendra 60% de la largeur */
+ }
+
+.project-description {
+    width: 35%; /* Le bloc de texte prendra 35% de la largeur */
+    font-size: 16px;
+    color:lime;
+ }
+ 
+ .project-description h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+ }
+ 
+ .project-description p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+ }
+
+
+
