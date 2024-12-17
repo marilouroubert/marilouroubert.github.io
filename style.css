@@ -18,6 +18,7 @@
 body {
     background-color:rgb(0, 0, 0);
     font-family: 'FT88-Serif';
+    font-style: 'normal';
     src: url("webfonts/webfonts2/FT88-Serif.woff");
     cursor: url('img/img/curseur.png'), auto;
 }
